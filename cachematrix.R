@@ -12,9 +12,11 @@ makeCacheMatrix <- function(x = matrix()) {
         m <<- NULL
     }
     get <- function() x
+    ## Set the inverse square matrix
     setInvSqrtMatrix <- function(solve) {
         m <<- solve
     }
+    # This gets the inverse square matrix from the cache
     getInvSqrtMatrix <- function() m
     
     list(set = set, 
