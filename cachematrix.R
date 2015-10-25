@@ -1,5 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## This two function, store the any matrix into cache
+## Recall the inverse squareroot of the matrix if it's been calculated
+## before, otherwise will create the Inverse Sqrt Matrix and 
+## store the result into cache
 
 ## This function make the Cache of the Matrix
 
